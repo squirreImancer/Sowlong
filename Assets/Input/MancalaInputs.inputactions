@@ -1,0 +1,78 @@
+{
+    "version": 1,
+    "name": "MancalaInputs",
+    "maps": [
+        {
+            "name": "Testing shit",
+            "id": "a6d3d071-c235-4179-ba52-ee79f2724123",
+            "actions": [
+                {
+                    "name": "idxUp",
+                    "type": "Button",
+                    "id": "90f63e6d-9bed-4e49-8848-95b7c62a8322",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "idxDown",
+                    "type": "Button",
+                    "id": "4c7107f2-0fb1-425a-b4f6-428887fbc124",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "149c780d-4fd2-41e5-8768-cff1855e276f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d3c9e9c2-89b4-43ae-94e4-498a1d4d23e4",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "idxUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9c33d5d-dc8b-4323-a7de-055d3ec6bea7",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "idxDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbef1bce-810b-4a07-8f25-92beb153e530",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
